@@ -11,7 +11,7 @@
 2. [ERD and DSD Diagrams](#erd-and-dsd-diagrams)
 3. [Design Decisions](#design-decisions)
 4. [Data Insertion Methods](#data-insertion-methods)
-   - [Method 1: Data Generation with Mockaroo](#method-1-mockaroo)
+   - [Method 1: Data Generation with Mockaroo](##method-1-data-generation-with-mockaroo)
    - [Method 2: SQL INSERT Generation with Python](#method-2-sql-insert)
    - [Method 3: CSV Generation with Python](#method-3-csv)
 5. [Backup and Restore](#backup-and-restore)
