@@ -1,0 +1,401 @@
+BuildingID,BuildingName,Address,MaxApartments,ManagerID
+1,Weizmann Hall,"Sokolov 67, Tel Aviv",5,379
+2,Weizmann Hall,"Jabotinsky 85, Beersheba",5,323
+3,Shaked Hall,"Ibn Gabirol 89, Beersheba",5,318
+4,The Arava Tower,"HaMasger 31, Jerusalem",5,333
+5,Ben Gurion Towers,"Sokolov 54, Tel Aviv",3,367
+6,Jerusalem Heights,"Ben Yehuda 63, Beersheba",3,141
+7,Weizmann Hall,"Ben Yehuda 12, Beersheba",4,80
+8,Shaked Hall,"Begin 43, Haifa",5,29
+9,Shaked Hall,"HaPalmach 37, Beersheba",3,329
+10,Shamir Hall,"Ben Gurion 11, Haifa",3,172
+11,Golda Residence,"Rothschild 28, Jerusalem",4,70
+12,Peres House,"Emek Refaim 5, Tel Aviv",4,224
+13,Rabin House,"Hertzel 43, Tel Aviv",2,101
+14,Ben Gurion Towers,"Dizengoff 74, Jerusalem",4,291
+15,Ben Gurion Towers,"Derech Hevron 55, Haifa",5,306
+16,Shamir Hall,"Eilat 57, Haifa",5,80
+17,Shaked Hall,"Shlomtzion HaMalka 5, Beersheba",3,299
+18,Rabin House,"Kaplan 53, Haifa",3,294
+19,Ben Gurion Towers,"Begin 23, Tel Aviv",5,83
+20,Einstein Lodge,"King George 30, Tel Aviv",4,1
+21,Rabin House,"Begin 27, Beersheba",4,259
+22,Shamir Hall,"Hertzel 3, Jerusalem",3,293
+23,Golda Residence,"Sokolov 76, Beersheba",4,396
+24,Peres House,"Ibn Gabirol 90, Beersheba",3,172
+25,Shamir Hall,"King George 90, Tel Aviv",2,266
+26,Rabin House,"HaPalmach 21, Jerusalem",4,15
+27,Einstein Lodge,"Sokolov 7, Beersheba",5,331
+28,Weizmann Hall,"Henrietta Szold 50, Haifa",2,18
+29,Ben Gurion Towers,"Herzl 66, Beersheba",2,76
+30,Peres House,"Jaffa 7, Beersheba",2,277
+31,Peres House,"Herzl 43, Beersheba",2,337
+32,Jerusalem Heights,"Herzl 52, Haifa",5,49
+33,Herzl Residence,"Yehuda Halevi 19, Tel Aviv",4,76
+34,Herzl Residence,"Ben Yehuda 38, Jerusalem",5,230
+35,Herzl Residence,"Arlozorov 48, Tel Aviv",3,284
+36,Carmel Residence,"HaMasger 30, Jerusalem",3,371
+37,Galilee Residence,"Hertzel 7, Beersheba",4,372
+38,Herzl Residence,"Herzl 77, Haifa",3,378
+39,Shamir Hall,"Herzl 87, Tel Aviv",4,107
+40,Technion Heights,"Herzl 97, Tel Aviv",2,19
+41,Carmel Residence,"Kaplan 73, Jerusalem",3,20
+42,Golda Residence,"Emek Refaim 39, Tel Aviv",2,285
+43,Galilee Residence,"Emek Refaim 80, Haifa",5,81
+44,Ben Gurion Towers,"Dizengoff 48, Jerusalem",2,205
+45,Negev Hall,"King George 51, Haifa",4,134
+46,Rabin House,"Eilat 33, Haifa",2,119
+47,Rabin House,"Emek Refaim 53, Tel Aviv",2,327
+48,Carmel Residence,"HaYarkon 64, Haifa",5,361
+49,Einstein Lodge,"HaPalmach 7, Tel Aviv",3,44
+50,Ben Gurion Towers,"Arlozorov 56, Beersheba",3,376
+51,Negev Hall,"Ben Yehuda 5, Tel Aviv",3,98
+52,Herzl Residence,"HaMasger 55, Jerusalem",4,390
+53,Herzl Residence,"Ibn Gabirol 91, Tel Aviv",4,214
+54,Rabin House,"Agron 96, Jerusalem",2,25
+55,Rabin House,"Allenby 85, Jerusalem",3,174
+56,Herzl Residence,"Sokolov 80, Haifa",4,54
+57,Peres House,"Jabotinsky 61, Beersheba",3,264
+58,Galilee Residence,"HaPalmach 91, Haifa",5,12
+59,Galilee Residence,"Kaplan 91, Tel Aviv",4,169
+60,Ben Gurion Towers,"HaYarkon 43, Tel Aviv",4,24
+61,Einstein Lodge,"Moriah 64, Haifa",5,362
+62,Ben Gurion Towers,"Hertzel 53, Tel Aviv",2,390
+63,Weizmann Hall,"Dizengoff 56, Tel Aviv",3,17
+64,Weizmann Hall,"HaYarkon 78, Jerusalem",4,177
+65,Shamir Hall,"Rothschild 20, Beersheba",2,92
+66,Golda Residence,"Yigal Alon 43, Tel Aviv",3,379
+67,Golda Residence,"Eilat 9, Haifa",3,271
+68,Technion Heights,"Allenby 72, Tel Aviv",5,30
+69,Rabin House,"Agron 94, Jerusalem",4,348
+70,Negev Hall,"HaYarkon 60, Tel Aviv",3,267
+71,Carmel Residence,"Hertzel 71, Haifa",3,317
+72,Shamir Hall,"Yehuda Halevi 96, Beersheba",5,234
+73,Golda Residence,"Yitzhak Rambo 6, Haifa",3,84
+74,Shaked Hall,"Hertzel 54, Jerusalem",5,105
+75,Peres House,"Jaffa 86, Beersheba",2,57
+76,Herzl Residence,"Yigal Alon 67, Beersheba",3,342
+77,Shamir Hall,"Allenby 57, Jerusalem",2,194
+78,Galilee Residence,"Eilat 42, Beersheba",2,221
+79,Carmel Residence,"Rothschild 68, Tel Aviv",2,224
+80,Shaked Hall,"Henrietta Szold 66, Jerusalem",4,106
+81,Ben Gurion Towers,"Moriah 33, Haifa",2,339
+82,Weizmann Hall,"Dizengoff 75, Beersheba",3,307
+83,Carmel Residence,"Ben Yehuda 71, Jerusalem",4,348
+84,Golda Residence,"HaPalmach 44, Beersheba",3,1
+85,Jerusalem Heights,"Kaplan 19, Haifa",4,179
+86,The Arava Tower,"Sokolov 7, Beersheba",2,19
+87,Peres House,"Henrietta Szold 41, Tel Aviv",3,6
+88,Weizmann Hall,"Hertzel 14, Beersheba",3,278
+89,Jerusalem Heights,"HaMasger 3, Haifa",2,51
+90,Negev Hall,"Rager Boulevard 15, Tel Aviv",2,99
+91,Galilee Residence,"Rager Boulevard 31, Tel Aviv",3,61
+92,Shamir Hall,"Rager Boulevard 80, Tel Aviv",5,327
+93,Shamir Hall,"HaYarkon 12, Tel Aviv",4,235
+94,Einstein Lodge,"Emek Refaim 65, Haifa",5,361
+95,The Arava Tower,"Yehuda Halevi 8, Tel Aviv",3,355
+96,Shamir Hall,"Agron 57, Haifa",5,400
+97,The Arava Tower,"Hertzel 14, Haifa",5,312
+98,Einstein Lodge,"Ben Gurion 5, Jerusalem",2,184
+99,Shamir Hall,"Ben Yehuda 7, Tel Aviv",4,38
+100,Ben Gurion Towers,"Rothschild 44, Beersheba",4,3
+101,Einstein Lodge,"Ben Gurion 27, Jerusalem",4,399
+102,Carmel Residence,"Sokolov 10, Tel Aviv",5,47
+103,Ben Gurion Towers,"Rager Boulevard 65, Beersheba",2,230
+104,Herzl Residence,"Jabotinsky 5, Tel Aviv",4,92
+105,Jerusalem Heights,"Jabotinsky 36, Jerusalem",5,334
+106,Shamir Hall,"Ben Yehuda 3, Beersheba",5,175
+107,Negev Hall,"Rothschild 48, Jerusalem",3,213
+108,Carmel Residence,"Ben Gurion 66, Beersheba",2,226
+109,Negev Hall,"Hertzel 62, Jerusalem",5,363
+110,Galilee Residence,"Dizengoff 68, Tel Aviv",4,9
+111,Einstein Lodge,"Ben Yehuda 90, Tel Aviv",3,113
+112,Negev Hall,"Arlozorov 31, Jerusalem",5,312
+113,Negev Hall,"Emek Refaim 39, Tel Aviv",4,196
+114,Ben Gurion Towers,"Yehuda Halevi 34, Jerusalem",2,258
+115,Ben Gurion Towers,"Henrietta Szold 92, Tel Aviv",5,87
+116,Peres House,"Ben Gurion 28, Jerusalem",4,246
+117,Shamir Hall,"Ben Yehuda 74, Jerusalem",5,117
+118,Galilee Residence,"Ben Gurion 45, Beersheba",2,250
+119,Weizmann Hall,"Weizmann 98, Tel Aviv",4,59
+120,Jerusalem Heights,"Ibn Gabirol 85, Beersheba",3,209
+121,Rabin House,"Shlomtzion HaMalka 13, Tel Aviv",3,27
+122,Weizmann Hall,"Rager Boulevard 31, Haifa",4,26
+123,Shamir Hall,"Dizengoff 77, Beersheba",3,292
+124,Shamir Hall,"Jaffa 27, Jerusalem",3,346
+125,Einstein Lodge,"Yitzhak Rambo 29, Beersheba",2,102
+126,Carmel Residence,"Rothschild 66, Beersheba",5,289
+127,Ben Gurion Towers,"Dizengoff 31, Beersheba",3,44
+128,Galilee Residence,"Hertzel 48, Haifa",2,74
+129,Einstein Lodge,"Weizmann 22, Beersheba",3,179
+130,Herzl Residence,"HaPalmach 42, Jerusalem",5,102
+131,Shaked Hall,"Herzl 31, Tel Aviv",3,64
+132,Herzl Residence,"Hertzel 42, Tel Aviv",2,238
+133,Carmel Residence,"Jaffa 86, Jerusalem",5,159
+134,The Arava Tower,"Ben Gurion 33, Jerusalem",3,195
+135,Jerusalem Heights,"Rothschild 26, Beersheba",4,334
+136,Carmel Residence,"Dizengoff 15, Tel Aviv",3,127
+137,Galilee Residence,"Hertzel 28, Tel Aviv",5,329
+138,Herzl Residence,"Jabotinsky 29, Haifa",4,346
+139,Galilee Residence,"Hertzel 38, Beersheba",2,135
+140,Galilee Residence,"Ben Yehuda 77, Beersheba",2,160
+141,Carmel Residence,"Rager Boulevard 95, Haifa",4,321
+142,Rabin House,"Rothschild 67, Beersheba",5,232
+143,Carmel Residence,"Moriah 91, Beersheba",2,193
+144,The Arava Tower,"Rothschild 92, Beersheba",5,196
+145,Jerusalem Heights,"Shlomtzion HaMalka 42, Tel Aviv",4,317
+146,Weizmann Hall,"Weizmann 79, Jerusalem",5,4
+147,Jerusalem Heights,"Henrietta Szold 2, Jerusalem",2,95
+148,Peres House,"HaPalmach 49, Haifa",5,97
+149,Jerusalem Heights,"Jabotinsky 59, Tel Aviv",5,340
+150,Shamir Hall,"Shlomtzion HaMalka 63, Jerusalem",2,362
+151,Shaked Hall,"Herzl 46, Beersheba",2,299
+152,Rabin House,"Emek Refaim 94, Jerusalem",5,141
+153,Peres House,"Rager Boulevard 17, Beersheba",5,154
+154,Golda Residence,"HaYarkon 48, Beersheba",3,13
+155,Einstein Lodge,"Rothschild 60, Beersheba",2,50
+156,Jerusalem Heights,"Hertzel 61, Jerusalem",4,132
+157,Herzl Residence,"Jabotinsky 27, Haifa",4,135
+158,Herzl Residence,"Eilat 28, Tel Aviv",5,191
+159,Weizmann Hall,"Yigal Alon 5, Haifa",4,193
+160,Golda Residence,"Agron 25, Jerusalem",5,388
+161,Peres House,"Herzl 17, Jerusalem",3,203
+162,Weizmann Hall,"Rothschild 97, Beersheba",4,316
+163,Negev Hall,"Rager Boulevard 54, Jerusalem",3,254
+164,Ben Gurion Towers,"HaPalmach 89, Haifa",2,327
+165,Rabin House,"Arlozorov 36, Tel Aviv",2,235
+166,The Arava Tower,"Begin 65, Beersheba",4,309
+167,Carmel Residence,"Dizengoff 96, Beersheba",4,368
+168,Galilee Residence,"Rothschild 85, Tel Aviv",2,96
+169,Herzl Residence,"Rager Boulevard 63, Beersheba",4,193
+170,The Arava Tower,"Henrietta Szold 48, Haifa",3,341
+171,Ben Gurion Towers,"Dizengoff 59, Tel Aviv",2,142
+172,Golda Residence,"Moriah 25, Haifa",2,323
+173,Weizmann Hall,"King George 32, Jerusalem",4,131
+174,Technion Heights,"Jaffa 67, Haifa",4,221
+175,Weizmann Hall,"Yitzhak Rambo 96, Beersheba",5,146
+176,Shamir Hall,"Rothschild 78, Haifa",2,295
+177,The Arava Tower,"King George 16, Haifa",2,378
+178,The Arava Tower,"HaPalmach 48, Beersheba",4,319
+179,Jerusalem Heights,"Herzl 90, Jerusalem",4,320
+180,The Arava Tower,"Dizengoff 6, Beersheba",5,299
+181,Negev Hall,"Ben Yehuda 18, Beersheba",3,344
+182,Herzl Residence,"Emek Refaim 78, Tel Aviv",4,112
+183,Weizmann Hall,"HaYarkon 38, Jerusalem",3,7
+184,The Arava Tower,"Agron 78, Haifa",4,368
+185,Golda Residence,"Yitzhak Rambo 91, Beersheba",5,333
+186,Technion Heights,"Jaffa 79, Jerusalem",3,387
+187,Herzl Residence,"Jabotinsky 21, Jerusalem",4,323
+188,Jerusalem Heights,"Henrietta Szold 28, Jerusalem",4,86
+189,The Arava Tower,"Sokolov 51, Haifa",3,113
+190,Shamir Hall,"Emek Refaim 11, Beersheba",3,69
+191,Herzl Residence,"Sokolov 80, Beersheba",4,386
+192,Technion Heights,"King George 73, Haifa",3,233
+193,Einstein Lodge,"Yitzhak Rambo 16, Jerusalem",4,91
+194,Peres House,"Yigal Alon 19, Haifa",2,194
+195,Shaked Hall,"King George 45, Jerusalem",4,185
+196,Peres House,"Derech Hevron 63, Jerusalem",2,29
+197,Peres House,"Rothschild 83, Beersheba",4,368
+198,Jerusalem Heights,"Emek Refaim 46, Haifa",4,62
+199,Technion Heights,"HaPalmach 91, Tel Aviv",3,212
+200,Peres House,"Ben Yehuda 87, Tel Aviv",4,323
+201,Jerusalem Heights,"Henrietta Szold 71, Tel Aviv",3,180
+202,Negev Hall,"HaYarkon 51, Beersheba",3,68
+203,Negev Hall,"King George 31, Haifa",2,69
+204,Jerusalem Heights,"Jaffa 76, Beersheba",5,292
+205,Rabin House,"Weizmann 9, Tel Aviv",3,143
+206,Herzl Residence,"Yehuda Halevi 49, Beersheba",2,65
+207,Technion Heights,"Rager Boulevard 73, Jerusalem",5,218
+208,Technion Heights,"Ben Gurion 42, Jerusalem",2,262
+209,Galilee Residence,"Ben Gurion 26, Tel Aviv",5,26
+210,Galilee Residence,"Moriah 21, Haifa",2,185
+211,Herzl Residence,"Begin 13, Jerusalem",2,213
+212,Weizmann Hall,"Yitzhak Rambo 91, Beersheba",4,54
+213,Herzl Residence,"HaMasger 37, Jerusalem",3,153
+214,Peres House,"Kaplan 2, Haifa",4,108
+215,Herzl Residence,"Eilat 72, Beersheba",3,82
+216,Negev Hall,"Yitzhak Rambo 73, Jerusalem",4,258
+217,Golda Residence,"Agron 28, Jerusalem",2,267
+218,Carmel Residence,"Yehuda Halevi 63, Haifa",4,12
+219,Einstein Lodge,"Jabotinsky 19, Tel Aviv",2,236
+220,Carmel Residence,"Ibn Gabirol 68, Tel Aviv",2,266
+221,Peres House,"Yitzhak Rambo 79, Tel Aviv",5,151
+222,Ben Gurion Towers,"Allenby 13, Beersheba",5,144
+223,Golda Residence,"HaMasger 79, Tel Aviv",5,336
+224,Jerusalem Heights,"HaPalmach 32, Tel Aviv",2,41
+225,Golda Residence,"Ibn Gabirol 71, Beersheba",2,271
+226,Ben Gurion Towers,"Emek Refaim 58, Jerusalem",4,243
+227,Golda Residence,"Arlozorov 21, Beersheba",5,135
+228,Jerusalem Heights,"Emek Refaim 89, Beersheba",4,3
+229,Carmel Residence,"Shlomtzion HaMalka 95, Haifa",5,224
+230,Ben Gurion Towers,"Jaffa 63, Tel Aviv",5,262
+231,Ben Gurion Towers,"Emek Refaim 46, Beersheba",4,121
+232,Galilee Residence,"Shlomtzion HaMalka 78, Beersheba",3,74
+233,Shaked Hall,"HaYarkon 21, Beersheba",4,6
+234,Einstein Lodge,"Henrietta Szold 68, Haifa",2,1
+235,Weizmann Hall,"Emek Refaim 46, Jerusalem",2,232
+236,The Arava Tower,"Ibn Gabirol 10, Beersheba",3,87
+237,Weizmann Hall,"Derech Hevron 17, Tel Aviv",3,257
+238,Technion Heights,"HaYarkon 14, Jerusalem",3,23
+239,Shamir Hall,"Hertzel 96, Jerusalem",2,285
+240,Technion Heights,"HaYarkon 35, Beersheba",4,70
+241,Herzl Residence,"Ibn Gabirol 83, Tel Aviv",3,279
+242,Jerusalem Heights,"Rager Boulevard 36, Tel Aviv",4,379
+243,The Arava Tower,"Rothschild 79, Beersheba",3,116
+244,Golda Residence,"King George 82, Beersheba",4,240
+245,Shamir Hall,"Eilat 60, Jerusalem",3,3
+246,Shaked Hall,"Emek Refaim 67, Beersheba",5,262
+247,Shamir Hall,"HaYarkon 1, Jerusalem",4,121
+248,Shaked Hall,"Begin 87, Jerusalem",4,224
+249,Shamir Hall,"Herzl 25, Beersheba",3,31
+250,The Arava Tower,"Weizmann 98, Beersheba",3,226
+251,Weizmann Hall,"Emek Refaim 88, Jerusalem",5,392
+252,Carmel Residence,"Jaffa 15, Jerusalem",5,183
+253,Carmel Residence,"Eilat 91, Tel Aviv",3,296
+254,Golda Residence,"Yehuda Halevi 81, Beersheba",2,202
+255,Carmel Residence,"Derech Hevron 71, Jerusalem",2,109
+256,Shamir Hall,"King George 68, Tel Aviv",5,207
+257,Negev Hall,"Moriah 37, Tel Aviv",4,156
+258,Carmel Residence,"King George 23, Haifa",3,397
+259,Rabin House,"Derech Hevron 16, Jerusalem",5,3
+260,Shamir Hall,"Rothschild 76, Tel Aviv",4,390
+261,Einstein Lodge,"Shlomtzion HaMalka 81, Beersheba",3,93
+262,Shaked Hall,"Begin 52, Beersheba",2,382
+263,Carmel Residence,"Allenby 95, Jerusalem",5,305
+264,Jerusalem Heights,"Yitzhak Rambo 21, Jerusalem",5,229
+265,Negev Hall,"Derech Hevron 73, Jerusalem",3,138
+266,Ben Gurion Towers,"Herzl 79, Haifa",4,384
+267,Shaked Hall,"Henrietta Szold 98, Jerusalem",4,54
+268,Golda Residence,"HaYarkon 3, Beersheba",2,336
+269,Rabin House,"Emek Refaim 72, Haifa",2,185
+270,Shaked Hall,"Ibn Gabirol 5, Haifa",3,145
+271,The Arava Tower,"Shlomtzion HaMalka 54, Jerusalem",3,218
+272,Einstein Lodge,"Jabotinsky 62, Tel Aviv",2,305
+273,Jerusalem Heights,"Dizengoff 61, Tel Aviv",5,295
+274,Galilee Residence,"Yehuda Halevi 21, Haifa",2,111
+275,Shaked Hall,"HaPalmach 43, Beersheba",5,318
+276,Rabin House,"Rothschild 12, Tel Aviv",4,138
+277,Shamir Hall,"Shlomtzion HaMalka 70, Tel Aviv",5,390
+278,Golda Residence,"Emek Refaim 75, Beersheba",3,108
+279,Shamir Hall,"Begin 64, Tel Aviv",4,391
+280,Galilee Residence,"Ben Yehuda 13, Haifa",5,191
+281,Negev Hall,"Weizmann 94, Haifa",2,277
+282,Golda Residence,"Derech Hevron 78, Tel Aviv",3,230
+283,Ben Gurion Towers,"Begin 10, Tel Aviv",4,395
+284,Galilee Residence,"Yigal Alon 35, Jerusalem",5,53
+285,Ben Gurion Towers,"Yitzhak Rambo 19, Jerusalem",5,19
+286,Shamir Hall,"Allenby 69, Beersheba",4,58
+287,The Arava Tower,"Sokolov 89, Jerusalem",4,15
+288,Einstein Lodge,"Ben Gurion 58, Tel Aviv",5,92
+289,Einstein Lodge,"Herzl 96, Beersheba",4,320
+290,Weizmann Hall,"Rothschild 4, Jerusalem",2,19
+291,Shaked Hall,"Emek Refaim 67, Beersheba",2,50
+292,Shaked Hall,"Allenby 10, Tel Aviv",5,190
+293,Negev Hall,"HaYarkon 94, Tel Aviv",3,392
+294,Negev Hall,"Sokolov 45, Tel Aviv",3,124
+295,Ben Gurion Towers,"Ibn Gabirol 52, Tel Aviv",5,9
+296,Golda Residence,"Ben Yehuda 64, Haifa",3,182
+297,Herzl Residence,"Dizengoff 67, Tel Aviv",3,100
+298,Einstein Lodge,"Ibn Gabirol 19, Haifa",5,297
+299,Carmel Residence,"Jaffa 26, Jerusalem",4,27
+300,Einstein Lodge,"Rager Boulevard 46, Haifa",2,373
+301,Rabin House,"Arlozorov 14, Tel Aviv",5,337
+302,Carmel Residence,"Arlozorov 50, Haifa",5,63
+303,Negev Hall,"Jabotinsky 26, Beersheba",2,35
+304,Golda Residence,"Weizmann 94, Haifa",4,81
+305,Jerusalem Heights,"Ben Gurion 52, Tel Aviv",5,297
+306,Einstein Lodge,"Yigal Alon 92, Jerusalem",4,325
+307,Weizmann Hall,"Yigal Alon 59, Haifa",4,370
+308,Peres House,"King George 18, Tel Aviv",2,348
+309,Shaked Hall,"Moriah 74, Tel Aviv",4,389
+310,Golda Residence,"Rager Boulevard 28, Jerusalem",5,215
+311,Galilee Residence,"Allenby 89, Haifa",3,183
+312,Weizmann Hall,"King George 33, Jerusalem",4,326
+313,Golda Residence,"Ben Gurion 17, Jerusalem",4,132
+314,The Arava Tower,"Derech Hevron 66, Beersheba",2,393
+315,Carmel Residence,"King George 74, Tel Aviv",3,395
+316,Jerusalem Heights,"Weizmann 56, Jerusalem",3,124
+317,Shaked Hall,"Moriah 23, Haifa",5,221
+318,Jerusalem Heights,"Arlozorov 23, Haifa",3,156
+319,Shamir Hall,"Henrietta Szold 5, Jerusalem",3,255
+320,Weizmann Hall,"Hertzel 55, Beersheba",5,108
+321,Negev Hall,"Arlozorov 19, Tel Aviv",4,247
+322,Jerusalem Heights,"Emek Refaim 85, Haifa",4,4
+323,Peres House,"Eilat 14, Beersheba",4,52
+324,Technion Heights,"Yitzhak Rambo 52, Beersheba",2,83
+325,Technion Heights,"Eilat 17, Haifa",4,13
+326,Golda Residence,"Sokolov 67, Jerusalem",2,353
+327,Weizmann Hall,"Ben Yehuda 4, Tel Aviv",5,11
+328,Negev Hall,"Allenby 41, Tel Aviv",4,124
+329,Negev Hall,"Ben Gurion 37, Beersheba",3,295
+330,Shamir Hall,"HaPalmach 36, Tel Aviv",4,230
+331,Technion Heights,"HaPalmach 78, Haifa",3,200
+332,Carmel Residence,"HaPalmach 20, Tel Aviv",4,234
+333,Negev Hall,"Jaffa 40, Jerusalem",5,165
+334,Rabin House,"Emek Refaim 68, Tel Aviv",3,252
+335,Jerusalem Heights,"Arlozorov 29, Haifa",4,190
+336,Jerusalem Heights,"Derech Hevron 57, Beersheba",4,198
+337,Herzl Residence,"Jabotinsky 34, Beersheba",5,306
+338,Shaked Hall,"Sokolov 29, Jerusalem",3,305
+339,Jerusalem Heights,"King George 40, Jerusalem",5,36
+340,Ben Gurion Towers,"Eilat 62, Beersheba",2,338
+341,The Arava Tower,"Agron 86, Jerusalem",4,331
+342,Herzl Residence,"Ben Gurion 73, Tel Aviv",2,390
+343,The Arava Tower,"Begin 87, Jerusalem",5,58
+344,Herzl Residence,"Jabotinsky 72, Tel Aviv",3,308
+345,Einstein Lodge,"Yigal Alon 63, Beersheba",2,29
+346,Rabin House,"HaPalmach 2, Beersheba",5,147
+347,Shamir Hall,"Henrietta Szold 59, Haifa",5,60
+348,Golda Residence,"King George 32, Haifa",3,385
+349,Technion Heights,"HaMasger 98, Jerusalem",2,284
+350,Herzl Residence,"Kaplan 84, Tel Aviv",2,308
+351,Negev Hall,"Herzl 91, Jerusalem",3,146
+352,Technion Heights,"Jabotinsky 4, Beersheba",2,170
+353,Jerusalem Heights,"Henrietta Szold 80, Jerusalem",3,312
+354,Shaked Hall,"Arlozorov 63, Haifa",5,253
+355,Carmel Residence,"Herzl 94, Beersheba",4,318
+356,Jerusalem Heights,"Yitzhak Rambo 16, Haifa",5,195
+357,The Arava Tower,"Yehuda Halevi 27, Beersheba",5,194
+358,Peres House,"Allenby 12, Beersheba",2,262
+359,The Arava Tower,"HaYarkon 55, Beersheba",2,169
+360,The Arava Tower,"Ben Yehuda 19, Tel Aviv",2,171
+361,Galilee Residence,"Kaplan 78, Jerusalem",5,285
+362,Shamir Hall,"Allenby 22, Tel Aviv",4,166
+363,Peres House,"Yitzhak Rambo 98, Jerusalem",4,244
+364,Negev Hall,"Shlomtzion HaMalka 76, Jerusalem",4,232
+365,Shaked Hall,"Yitzhak Rambo 76, Jerusalem",5,196
+366,The Arava Tower,"Weizmann 7, Tel Aviv",4,198
+367,Einstein Lodge,"Shlomtzion HaMalka 80, Beersheba",4,73
+368,Shamir Hall,"Henrietta Szold 25, Beersheba",3,176
+369,Rabin House,"Ibn Gabirol 4, Jerusalem",5,243
+370,Carmel Residence,"Ibn Gabirol 34, Beersheba",3,237
+371,Einstein Lodge,"Henrietta Szold 73, Jerusalem",5,242
+372,Carmel Residence,"Begin 42, Haifa",5,262
+373,Weizmann Hall,"Moriah 64, Jerusalem",2,308
+374,Jerusalem Heights,"Weizmann 89, Haifa",5,31
+375,Shamir Hall,"Shlomtzion HaMalka 18, Haifa",3,378
+376,Golda Residence,"Weizmann 80, Jerusalem",5,175
+377,Einstein Lodge,"HaMasger 44, Tel Aviv",3,1
+378,Shaked Hall,"Herzl 41, Jerusalem",5,291
+379,Herzl Residence,"Derech Hevron 89, Tel Aviv",2,329
+380,Weizmann Hall,"Eilat 20, Beersheba",4,129
+381,The Arava Tower,"Shlomtzion HaMalka 23, Haifa",5,62
+382,Jerusalem Heights,"Jaffa 80, Tel Aviv",5,284
+383,Negev Hall,"Sokolov 83, Tel Aviv",5,74
+384,Galilee Residence,"HaPalmach 36, Tel Aviv",2,180
+385,Galilee Residence,"Rager Boulevard 57, Jerusalem",3,153
+386,Carmel Residence,"Yitzhak Rambo 23, Jerusalem",2,267
+387,Golda Residence,"Jabotinsky 90, Beersheba",3,290
+388,Weizmann Hall,"Kaplan 7, Haifa",3,162
+389,Einstein Lodge,"Rothschild 70, Haifa",5,124
+390,Rabin House,"HaMasger 40, Jerusalem",4,376
+391,Carmel Residence,"Ibn Gabirol 51, Tel Aviv",3,219
+392,Shamir Hall,"Jabotinsky 20, Beersheba",2,144
+393,Shaked Hall,"Derech Hevron 18, Tel Aviv",5,360
+394,Ben Gurion Towers,"Yitzhak Rambo 59, Jerusalem",3,222
+395,Golda Residence,"Weizmann 3, Beersheba",4,78
+396,Carmel Residence,"Yigal Alon 87, Haifa",4,156
+397,Weizmann Hall,"Jabotinsky 53, Haifa",2,89
+398,The Arava Tower,"King George 60, Jerusalem",5,262
+399,Herzl Residence,"Hertzel 14, Beersheba",2,41
+400,Galilee Residence,"Dizengoff 50, Tel Aviv",3,208
