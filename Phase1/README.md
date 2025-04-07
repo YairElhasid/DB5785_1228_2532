@@ -15,6 +15,7 @@
    - [Method 1: Data Generation with Mockaroo](#method-1-data-generation-with-mockaroo)
    - [Method 2: SQL INSERT Generation with Python](#method-2-sql-insert-generation-with-python)
    - [Method 3: CSV Generation with Python](#method-3-csv-generation-with-python)
+   - [Method 4: Direct CSV to Database Insertion with Python and Pandas](#method-4-direct-csv-to-database-insertion-with-python-and-pandas)
 5. [Backup and Restore](#backup-and-restore)
 
 ---
@@ -69,7 +70,7 @@ A student who rents an apartment in a dormitory is not required to submit a main
 
 ## Data Insertion Methods
 
-We implemented three methods for inserting data into the database, each supporting the creation of consistent data.
+We implemented four methods for inserting data into the database, each supporting the creation of consistent data.
 
 ### Method 1: Data Generation with Mockaroo
 The Mockaroo service was used to generate random data for the apartments table, which was then loaded into the database.
@@ -109,6 +110,14 @@ The same Python script also created `.csv` files with data identical to that gen
 [View `rental.csv`](Programing/csv%20files/rental.csv)  
 [View `maintenance_request.csv`](Programing/csv%20files/maintenance_request.csv)
 
+### Method 4: Direct CSV to Database Insertion with Python and Pandas
+A Python script was developed to read CSV files from a specified folder and insert them directly into the database using the Pandas library. This method streamlines the process by automating the transfer of data from CSV files to database tables without manual importing.
+Data can be generated using Python and inserted directly using this method.
+However, here we chose to insert from csv files that we created earlier to maintain data consistency.
+
+![Insert Data via Python and Pandas](images/insertDataViaPythonAndPandas.png)  
+[View `insertWithPandas.py`](Programing/insertWithPandas.py)
+
 ---
 
 ## Backup and Restore
@@ -125,5 +134,4 @@ We restored the backup to a new database to verify data integrity. The process s
 
 ![Restoring from Backup File](images/Restoring%20from%20the%20backup%20file.png)  
 ![Successful Restoration](images/Successful%20restoration%20from%20backup%20file.png)
-
 ---
