@@ -305,7 +305,7 @@ This demonstrates an update to the `Room` table with a commit, showing the datab
   ![Commit Step 1 - Initial State](./images/C1.png)
 
 - **Step 2: Start Transaction**:  
-  A transaction is started with the `BEGIN;`
+  A transaction is started with the `BEGIN;` 
   ![Commit Step 2 - Begin Transaction](./images/C2.png)
 
 - **Step 3: Update MaxPeople**:  
