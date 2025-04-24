@@ -1,4 +1,3 @@
-
 # Phase 2 Project Report - Dormitory Management System
 
 ## Table of Contents
@@ -276,7 +275,7 @@ This demonstrates an update to the `Lease` table with a rollback, showing the da
   ![Rollback Step 1 - Initial State](./images/R1.png)
 
 - **Step 2: Start Transaction**:  
-  A transaction is started with the `BEGIN;` 
+  A transaction is started with the `BEGIN;` command, initiating a controlled environment for the update.  
   ![Rollback Step 2 - Begin Transaction](./images/R2.png)
 
 - **Step 3: Update DiscountPercent**:  
@@ -288,7 +287,7 @@ This demonstrates an update to the `Lease` table with a rollback, showing the da
   ![Rollback Step 4 - After Update](./images/R4.png)
 
 - **Step 5: Rollback the Transaction**:  
-  The transaction is rolled back with the `ROLLBACK;` reverting all changes made within the transaction.  
+  The transaction is rolled back with the `ROLLBACK;` command, reverting all changes made within the transaction.  
   ![Rollback Step 5 - Rollback](./images/R5.png)
 
 - **Step 6: State After Rollback (Returns to Initial State)**:  
@@ -305,7 +304,7 @@ This demonstrates an update to the `Room` table with a commit, showing the datab
   ![Commit Step 1 - Initial State](./images/C1.png)
 
 - **Step 2: Start Transaction**:  
-  A transaction is started with the `BEGIN;` 
+  A transaction is started with the `BEGIN;` command, initiating a controlled environment for the update.  
   ![Commit Step 2 - Begin Transaction](./images/C2.png)
 
 - **Step 3: Update MaxPeople**:  
