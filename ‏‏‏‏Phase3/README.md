@@ -91,18 +91,11 @@ The SQL scripts are available for review:
 #### View 1: ManagerEmployeeContractProfile
 - **Description**: Integrates data from `employee_local`, `dorm_management`, and `contract_local` to provide a comprehensive profile of managers, including employee details, dorm management info, and contract details.  
   ![View 1 Diagram](./images/VIEW1.png)
-- **Data Retrieval**:  
-  ```sql
-  SELECT * FROM public.ManagerEmployeeContractProfile LIMIT 10;
-  ```
 
 #### View 2: RentalLeaseEmployeeContract
 - **Description**: Connects rental and lease data from the dormitory system with employee contract details, focusing on managers overseeing student leases, including rental details, lease terms, and contract information.  
   ![View 2 Diagram](./images/view2.png)
-- **Data Retrieval**:  
-  ```sql
-  SELECT * FROM public.RentalLeaseEmployeeContract LIMIT 10;
-  ```
+
 
 ### Queries on Views
 #### Query 1 on ManagerEmployeeContractProfile
