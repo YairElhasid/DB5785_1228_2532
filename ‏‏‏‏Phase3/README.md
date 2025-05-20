@@ -45,18 +45,19 @@ We decided to define dorm managers as inheriting from employees, meaning they in
 
 ### Screenshots of DSD and ERD Diagrams
 - **DSD of the New Department**:  
-  [DSD New Department](./images/DSDother.png)  
-  Represents the Data Structure Diagram of the new department we received. 
+  ![DSD New Department](./images/DSDother.png)  
+  Represents the Data Structure Diagram of the new department we received.
 
 - **ERD of the New Department**:  
-  [ERD New Department](./images/ERDother.png)  
+  ![ERD New Department](./images/ERDother.png)  
   Shows the Entity-Relationship Diagram of the new department we received.
 
 - **Combined ERD**:  
-  [Combined ERD](./images/ERD_COMBINDE.png)  
+  ![Combined ERD](./images/ERD_COMBINDE.png)  
   Illustrates the integrated ERD after merging both departments.
+
 - **DSD Post-Integration**:  
-  [DSD Post-Integration](./images/DSD_final.png)  
+  ![DSD Post-Integration](./images/DSD_final.png)  
   Displays the final DSD combining both departments after integration.
 
 ### Detailed Integration Decisions
@@ -89,7 +90,7 @@ The SQL scripts are available for review:
 ### Views Description and Data Retrieval
 #### View 1: ManagerEmployeeContractProfile
 - **Description**: Integrates data from `employee_local`, `dorm_management`, and `contract_local` to provide a comprehensive profile of managers, including employee details, dorm management info, and contract details.  
-  [View 1 Diagram](./images/VIEW1.png)  
+  ![View 1 Diagram](./images/VIEW1.png)
 - **Data Retrieval**:  
   ```sql
   SELECT * FROM public.ManagerEmployeeContractProfile LIMIT 10;
@@ -97,7 +98,7 @@ The SQL scripts are available for review:
 
 #### View 2: RentalLeaseEmployeeContract
 - **Description**: Connects rental and lease data from the dormitory system with employee contract details, focusing on managers overseeing student leases, including rental details, lease terms, and contract information.  
-  [View 2 Diagram](./images/view2.png)  
+  ![View 2 Diagram](./images/view2.png)
 - **Data Retrieval**:  
   ```sql
   SELECT * FROM public.RentalLeaseEmployeeContract LIMIT 10;
@@ -122,7 +123,7 @@ The SQL scripts are available for review:
   ORDER BY EmployeeName;
   ```
 - **Output**:  
-  [Query 1 on View 1 Output](./images/qurey1onview1.png)  
+  ![Query 1 on View 1 Output](./images/qurey1onview1.png)
 
 #### Query 2 on ManagerEmployeeContractProfile
 - **Description**: Returns managers earning a salary above 15,000, including their employee ID, name, position, department, hire date, and salary, sorted by salary in descending order.
@@ -140,7 +141,7 @@ The SQL scripts are available for review:
   ORDER BY ContractSalary DESC;
   ```
 - **Output**:  
-  [Query 2 on View 1 Output](./images/qurey2onview1.png)  
+  ![Query 2 on View 1 Output](./images/qurey2onview1.png)
 
 #### Query 1 on RentalLeaseEmployeeContract
 - **Description**: Returns lease details for leases with discounts above 17% offered by managers not in Sales, Marketing, or Finance departments, including department ID, department name, lease ID, discount percentage, contract date, and position title, sorted by discount percentage in descending order.
@@ -159,7 +160,7 @@ The SQL scripts are available for review:
   ORDER BY discountpercent DESC;
   ```
 - **Output**:  
-  [Query 1 on View 2 Output](./images/qurey1onview2.png)  
+  ![Query 1 on View 2 Output](./images/qurey1onview2.png)
 
 #### Query 2 on RentalLeaseEmployeeContract
 - **Description**: Returns managers who have signed at least 5 leases and earn a salary of 17,000 or less, including their manager ID, lease count, salary, and department name, sorted by lease count in descending order.
@@ -177,8 +178,8 @@ The SQL scripts are available for review:
   ORDER BY LeaseCount DESC;
   ```
 - **Output**:  
-  [Query 2 on View 2 Output](./images/qurey2onview2.png)  
+  ![Query 2 on View 2 Output](./images/qurey2onview2.png)
 
 ## Backup Information
-- **Backup File**:
+- **Backup File**:  
   [View Backup](./Backups/Backup3__20_05_2025)
