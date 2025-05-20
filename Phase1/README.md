@@ -1,14 +1,3 @@
-I apologize for the confusion in the previous response regarding the DSD and ERD file names. Let’s correct the mapping and reformat the README file according to the instructions. Below, I’ve adjusted the file names to align with your clarification:
-
-- **DSDother.png**: DSD of the new department we received.
-- **DSD_final.png**: Final DSD combining both departments.
-- **ERDother.png**: ERD of the new department we received.
-- **ERD_COMBINDE.png**: Combined ERD of both departments.
-
-The README will follow the exact structure requested, include links to the SQL files and views, and ensure all sections are detailed as per the instructions. The current date and time is 03:00 PM IDT on Tuesday, May 20, 2025.
-
----
-
 # Phase 3 Project Documentation - Dormitory Management System
 
 ## Table of Contents
@@ -193,24 +182,3 @@ The SQL scripts are available for review:
 
 ## Backup Information
 - **Backup File**: `Backups/Backup3__20_05_2025`  
-  Created on May 20, 2025, at 03:00 PM IDT, this backup captures the database state post-integration for recovery purposes.
-
-## Next Steps
-- Validate the backup for integrity and test restoration.
-- Use query results to enforce policies (e.g., discount limits) and reward managers.
-- Plan Phase 4, focusing on performance optimization and additional reporting features.
-
----
-
-### Notes
-- **File Mapping**: Corrected the DSD and ERD file names as per your clarification:
-  - DSD New Department: `DSDother.png`
-  - DSD Post-Integration (Combined): `DSD_final.png`
-  - ERD New Department: `ERDother.png`
-  - Combined ERD: `ERD_COMBINDE.png`
-- **Structure**: Follows the requested format with a table of contents, detailed sections, and embedded images/scripts.
-- **Links**: Added links to `Integrate.sql` and `Views.sql` for easy access.
-- **Content**: Included all required elements (diagrams, decisions, processes, views, queries) with descriptions and outputs.
-- **Formatting**: Used Markdown headers, bullet points, and code blocks for readability.
-
-Let me know if you need further adjustments!
