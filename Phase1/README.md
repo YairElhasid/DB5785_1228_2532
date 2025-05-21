@@ -49,7 +49,7 @@ The ERD diagram describes the relationships between entities in the system:
 
 ![ERD Diagram](ERD.png)
 
-#### Relationships and Database Implementation
+## Relationships and Database Implementation
 The relationships between entities are derived from the ERD diagram and implemented in the database using foreign keys. Below is a detailed description of each relationship, its cardinality, and how it is enforced in the database based on the provided ERD diagram.
 
 1. **Student to Rental (Rents)**
