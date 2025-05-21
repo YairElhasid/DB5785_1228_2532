@@ -49,55 +49,18 @@ The ERD diagram describes the relationships between entities in the system:
 
 ![ERD Diagram](ERD.png)
 
-### Database Tables and Relationships
-
-Below is a detailed breakdown of all tables in the database, their attributes, and the relationships between them as defined in the ERD diagram. The relationships are described in terms of cardinality (e.g., one-to-one, one-to-many, many-to-many) and how they are implemented in the database (e.g., through foreign keys).
-
-#### Tables and Attributes
-1. **Student**
-   - **Attributes**: `StudentID` (Primary Key), `FirstName`, `LastName`, `Gender`, `DateOfBirth`, `EnrollDate`, `PhoneNumber`, `Email`, `Major`
-   - **Description**: Stores personal and academic details of students.
-
-2. **Dorm Management**
-   - **Attributes**: `ManagerID` (Primary Key), `FullName`, `PhoneNumber`, `Email`, `HireDate`
-   - **Description**: Stores details of dormitory managers.
-
-3. **Building**
-   - **Attributes**: `BuildingID` (Primary Key), `BuildingName`, `Address`, `MaxApartments`, `ManagerID` (Foreign Key)
-   - **Description**: Stores details of dormitory buildings, including the manager responsible for each building.
-
-4. **Apartment**
-   - **Attributes**: `ApartmentID` (Primary Key), `BuildingID` (Foreign Key), `RoomCapacity`, `FloorNumber`, `MaxRooms`
-   - **Description**: Stores details of apartments within buildings.
-
-5. **Room**
-   - **Attributes**: `RoomID` (Primary Key), `MaxPeople`, `HasBalcony`, `ApartmentID` (Foreign Key), `BuildingID` (Foreign Key, optional)
-   - **Description**: Stores details of rooms within apartments, including capacity and balcony presence.
-
-6. **Lease**
-   - **Attributes**: `LeaseID` (Primary Key), `ContractDate`, `DiscountPercent`, `ManagerID` (Foreign Key)
-   - **Description**: Stores details of lease agreements, including the manager who executed the agreement.
-
-7. **Rental**
-   - **Attributes**: `StudentID` (Foreign Key), `RoomID` (Foreign Key), `LeaseID` (Foreign Key), `CheckInDate`, `CheckOutDate`
-   - **Description**: Tracks active rentals, linking students to rooms and lease agreements.
-
-8. **Maintenance Request**
-   - **Attributes**: `RequestID` (Primary Key), `IssueDescription`, `RequestDate`, `ResolvedDate`, `Priority`, `ManagerID` (Foreign Key), `StudentID` (Foreign Key, optional), `RoomID` (Foreign Key, optional), `LeaseID` (Foreign Key, optional)
-   - **Description**: Manages maintenance requests, including optional links to students, rooms, or leases.
-
 #### Relationships and Database Implementation
-The relationships between entities are derived from the ERD diagram and implemented in the database using foreign keys. Below is a detailed description of each relationship, its cardinality, and how it is enforced in the database.
+The relationships between entities are derived from the ERD diagram and implemented in the database using foreign keys. Below is a detailed description of each relationship, its cardinality, and how it is enforced in the database based on the provided ERD diagram.
 
 1. **Student to Rental (Rents)**
    - **Cardinality**: One-to-Many (optional)
-   - **Description**: A student can have zero or many rental records, but each rental is associated with exactly one student.
-   - **Implementation**: The `Rental` table includes `StudentID` as a foreign key referencing `Student(StudentID)`. The relationship is optional for the student, meaning a student may not have any rentals.
+   - **Description**: A student can have zero or one rental record (indicating they rent a room), but each rental is associated with exactly one student.
+   - **Implementation**: The `Rental` table includes `StudentID` as a foreign key referencing `Student(StudentID)`. The relationship is optional for the student, meaning a student may not have a rental record.
 
 2. **Student to Maintenance Request (Reported by)**
    - **Cardinality**: One-to-Many (optional)
    - **Description**: A student can report zero or many maintenance requests, but each maintenance request is reported by at most one student (optional).
-   - **Implementation**: The `Maintenance Request` table includes `StudentID` as an optional foreign key referencing `Student(StudentID)`. This allows maintenance requests to be reported by a student or anonymously (e.g., for common areas).
+   - **Implementation**: The `Maintenance Request` table includes `StudentID` as an optional foreign key referencing `Student(StudentID)`. This allows maintenance requests to be reported by a student or for other entities (e.g., common areas).
 
 3. **Dorm Management to Building (Managed by)**
    - **Cardinality**: One-to-Many
@@ -129,20 +92,25 @@ The relationships between entities are derived from the ERD diagram and implemen
    - **Description**: A room can be rented by one or many students (through rental records), but each rental is associated with exactly one room.
    - **Implementation**: The `Rental` table includes `RoomID` as a foreign key referencing `Room(RoomID)`.
 
-9. **Room to Maintenance Request (Reported by)**
+9. **Room to Maintenance Request (Part of)**
    - **Cardinality**: One-to-Many (optional)
-   - **Description**: A room can have zero or many maintenance requests associated with it, but each maintenance request is linked to at most one room (optional).
-   - **Implementation**: The `Maintenance Request` table includes `RoomID` as an optional foreign key referencing `Room(RoomID)`.
+   - **Description**: A room can have zero or many maintenance requests associated with it (e.g., multiple issues reported over time), but each maintenance request is linked to at most one room (optional). The optional nature reflects that maintenance requests can also apply to common areas or apartments without specifying a particular room.
+   - **Implementation**: The `Maintenance Request` table includes `RoomID` as an optional foreign key referencing `Room(RoomID)`. This foreign key is not mandatory, allowing maintenance requests to exist without a specific room association. The relationship is enforced through referential integrity when a `RoomID` is provided.
 
 10. **Lease to Rental (Defined by)**
     - **Cardinality**: One-to-Many
-    - **Description**: A lease can be associated with one or many rentals, but each rental is defined by exactly one lease.
-    - **Implementation**: The `Rental` table includes `LeaseID` as a foreign key referencing `Lease(LeaseID)`.
+    - **Description**: A lease can define one or many rental records (e.g., multiple students renting under the same lease agreement), but each rental is associated with exactly one lease. This reflects that a lease agreement governs the rental terms for one or more students or room assignments.
+    - **Implementation**: The `Rental` table includes `LeaseID` as a foreign key referencing `Lease(LeaseID)`. This ensures that every rental record is tied to a valid lease, and multiple rentals can reference the same lease, enforcing the one-to-many relationship through the foreign key constraint.
 
-11. **Lease to Maintenance Request (Reported by)**
+11. **Lease to Maintenance Request (Part of)**
     - **Cardinality**: One-to-Many (optional)
-    - **Description**: A lease can have zero or many maintenance requests associated with it, but each maintenance request is linked to at most one lease (optional).
-    - **Implementation**: The `Maintenance Request` table includes `LeaseID` as an optional foreign key referencing `Lease(LeaseID)`.
+    - **Description**: A lease can have zero or many maintenance requests associated with it (e.g., issues reported by students under the same lease), but each maintenance request is linked to at most one lease (optional). The optional nature indicates that maintenance requests may not always be tied to a specific lease, such as requests for common areas or unoccupied rooms.
+    - **Implementation**: The `Maintenance Request` table includes `LeaseID` as an optional foreign key referencing `Lease(LeaseID)`. This foreign key is not required, allowing maintenance requests to exist independently of a lease when applicable, with referential integrity enforced when a `LeaseID` is specified.
+
+12. **Building to Room (Belongs to)**
+    - **Cardinality**: One-to-Many
+    - **Description**: A building can have one or many rooms (through apartments), but each room belongs to exactly one building.
+    - **Implementation**: The `Room` table includes `BuildingID` as a foreign key referencing `Building(BuildingID)`, ensuring the room is within the same building as its apartment.
 
 ### DSD Description
 The DSD diagram details the structure of the tables, including columns, data types, and keys (primary and foreign), ensuring data consistency according to the ERD.
