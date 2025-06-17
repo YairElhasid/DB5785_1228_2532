@@ -257,7 +257,7 @@ Alex, a dormitory administrator, runs `Main Program 2` to address a student’s 
 
 Backup File: An updated backup of the integrated Dormitory Management database is available.
 
--   [Backup4__17_06_2025](./Backup4__17_06_2025)
+-   [Backup4__17_06_2025](./Backups/Backup4__17_06_2025)
 
 Scripts:
 
