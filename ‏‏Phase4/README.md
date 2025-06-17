@@ -236,13 +236,13 @@ $$;
 -   **Database Updates**:
     -   `leave_requests`: Updated `status` to 'Approved'/'Rejected'.
     -   `rental_archive`: Added old rental records.
-    -   `rental`: Deleted archived records.
+    -   `rental`: Deleted archived records. There are no old ones, so they were not deleted.
     -   `maintenance_request`: Updated `managerid` for unresolved requests.
     -   `change_log`: Logged INSERT/UPDATE operations.
 -   **Verification**: `SELECT` queries confirmed updates; no exceptions were raised.
 
-![Main Program 2 Execution Part A](./images/main2 part a.png)  
-![Main Program 2 Execution Part B](./main2 part b.png)
+![Main Program 2 Execution Part A](./images/main2_part_a.png)  
+![Main Program 2 Execution Part B](./main2_part_b.png)
 
 ### Narrative
 
