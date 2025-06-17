@@ -242,7 +242,7 @@ $$;
 -   **Verification**: `SELECT` queries confirmed updates; no exceptions were raised.
 
 ![Main Program 2 Execution Part A](./images/main2_part_a.png)  
-![Main Program 2 Execution Part B](./main2_part_b.png)
+![Main Program 2 Execution Part B](./images/main2_part_b.png)
 
 ### Narrative
 
