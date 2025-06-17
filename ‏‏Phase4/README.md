@@ -260,7 +260,7 @@ Scripts:
 -   [AlterTable.sql](./AlterTable.sql)
 -   [functions.sql](./functions.sql)
 -   [procedures.sql](./procedures.sql)
--   [triggers.sql](.triggers.sql)
+-   [triggers.sql](./triggers.sql)
 -   [main_program_1.sql](./main_program_1.sql)
 -   [main_program_2.sql](./main_program_2.sql)
 
