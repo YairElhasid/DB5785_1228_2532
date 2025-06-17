@@ -130,7 +130,7 @@ $$;
 -   **Outputs**: Displayed revenue and discounts, attendance records, and maintenance counts via `RAISE NOTICE`.
 -   **Database Updates**:
     -   `lease`: Updated `managerid` to 2.
-    -   `rental`: Added a record for student ID 1, room ID 4.
+    -   `rental`: NOT Added a record for student ID 1, room ID 4 - Because of trigger restrictions - OK!
     -   `attendance_log`: Updated `check_out_time` for employee ID 1.
     -   `contract`: Extended `end_date` by 12 months.
     -   `change_log`: Logged INSERT/UPDATE operations.
