@@ -47,7 +47,7 @@ This README details the implementation and execution of the two main programs (`
 
 The program uses exception handling to log errors and `RAISE NOTICE` for feedback. It updates the `lease`, `rental`, `attendance_log`, and `contract` tables, with changes logged in `change_log` via triggers.
 
-### Code (./main_program_1.sql)
+### Code - main_program_1.sql
 
 ```sql
 DO $$
@@ -160,7 +160,7 @@ Sarah, a dormitory manager, runs `Main Program 1` to prepare for a financial aud
 
 The program uses refcursors, exception handling, and `RAISE NOTICE` for feedback. It updates the `leave_requests`, `rental`, `rental_archive`, and `maintenance_request` tables, with changes logged in `change_log`.
 
-### Code (./main_program_2.sql)
+### Code - main_program_2.sql
 
 ```sql
 DO $$
