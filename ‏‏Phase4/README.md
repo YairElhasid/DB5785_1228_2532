@@ -241,8 +241,8 @@ $$;
     -   `change_log`: Logged INSERT/UPDATE operations.
 -   **Verification**: `SELECT` queries confirmed updates; no exceptions were raised.
 
-![Main Program 2 Execution Part A](./images/main2_part_a.png)  
-![Main Program 2 Execution Part B](./main2_part_b.png)
+![Main Program 2 Execution Part A](./images/main2 part a.png)  
+![Main Program 2 Execution Part B](./main2 part b.png)
 
 ### Narrative
 
