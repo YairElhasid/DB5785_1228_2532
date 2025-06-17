@@ -2,7 +2,6 @@
 
 This README details the implementation and execution of the two main programs (`main_program_1.sql` and `main_program_2.sql`) for the dormitory management system. For each program, we provide a verbal description, the code, execution with screenshots showing outputs and database updates, and a short narrative illustrating its use case and purpose. Additionally, a one-sentence explanation is provided for each trigger, function, and procedure.
 
-----------
 
 ## Triggers
 
@@ -11,7 +10,6 @@ This README details the implementation and execution of the two main programs (`
 -   **check_max_rooms**: Ensures the number of rooms in an apartment does not exceed the `MaxRooms` limit specified in the `Apartment` table.
 -   **check_max_people**: Blocks rental insertions if the number of students in a room exceeds the `MaxPeople` limit defined in the `Room` table.
 
-----------
 
 ## Functions
 
@@ -21,7 +19,6 @@ This README details the implementation and execution of the two main programs (`
 -   **employee_attendance_violations**: Identifies employees who failed to log attendance on a specific date via a refcursor.
 -   **student_rental_history**: Retrieves a student’s rental history (lease ID, room ID, check-in, and check-out dates) using a refcursor, validating date consistency.
 
-----------
 
 ## Procedures
 
@@ -32,7 +29,6 @@ This README details the implementation and execution of the two main programs (`
 -   **archive_old_rentals**: Moves rental records older than two years to the `rental_archive` table and deletes them from the `rental` table.
 -   **assign_maintenance_to_team**: Assigns unresolved maintenance requests to an employee in a specified department.
 
-----------
 
 ## Main Program 1
 
