@@ -134,7 +134,7 @@ $$;
     -   `attendance_log`: Updated `check_out_time` for employee ID 1.
     -   `contract`: Extended `end_date` by 12 months.
     -   `change_log`: Logged INSERT/UPDATE operations.
--   **Verification**: `SELECT` queries confirmed updates; no exceptions were raised.
+-   **Verification**: queries confirmed updates; no exceptions were raised.
 
 ![Main Program 1 Execution](./images/main1.png)
 
